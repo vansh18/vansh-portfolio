@@ -131,11 +131,11 @@ export const achievements = [
   },
   {
     name: "Emirati Sign Language Project",
-    result: "2nd Place · ₹2,000 Prize",
+    result: "2nd Place · AED 2,000 Prize",
   },
   {
     name: "ACM-CIIED University Ideathon",
-    result: "Winner · ₹500 Prize",
+    result: "Winner · AED 500 Prize",
   },
   {
     name: "RIFT CTF",
