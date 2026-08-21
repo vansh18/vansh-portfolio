@@ -80,7 +80,7 @@ export default function Hero() {
 
             <motion.div variants={item} className="mt-10 flex flex-wrap items-center gap-4">
               <a
-                href={profile.resumeUrl}
+                href={`${import.meta.env.BASE_URL}resume.pdf`}
                 className="inline-flex items-center justify-center px-6 py-3.5 bg-paper text-ink font-medium text-sm rounded-full hover:bg-gold transition-colors duration-300"
               >
                 View Resume
@@ -117,7 +117,7 @@ export default function Hero() {
           >
             <div className="w-48 lg:w-56 aspect-[4/5] rounded-2xl overflow-hidden border border-ink-line bg-ink-raised shadow-[0_20px_60px_rgba(0,0,0,0.35)]">
               <img
-                src="/portrait.jpeg"
+                src={`${import.meta.env.BASE_URL}portrait.jpeg`} 
                 alt="Vansh Gupta"
                 className="h-full w-full object-cover"
               />

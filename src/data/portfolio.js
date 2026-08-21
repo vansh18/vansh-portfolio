@@ -7,7 +7,6 @@ export const profile = {
   email: "vansh.gupta850@gmail.com",
   github: "https://github.com/vansh18",
   linkedin: "https://www.linkedin.com/in/vansh-gupta-1557ab1ba/",
-  resumeUrl: "/Resume.pdf",
 };
 
 export const nav = [

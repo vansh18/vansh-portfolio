@@ -76,7 +76,7 @@ export default function GalleryModal({ project, accent, onClose }) {
                   className="group aspect-video overflow-hidden rounded-lg border border-ink-line bg-ink"
                 >
                   <img
-                    src={`/work/${project.id}/${i + 1}.${project.imageExt}`}
+                    src={`${import.meta.env.BASE_URL}work/${project.id}/${i + 1}.${project.imageExt}`}
                     alt={`${project.name} screenshot ${i + 1}`}
                     loading="lazy"
                     className="h-full w-full object-cover transition-transform duration-300 group-hover:scale-105"
@@ -99,7 +99,7 @@ export default function GalleryModal({ project, accent, onClose }) {
                 }}
               >
                 <motion.img
-                  src={`/work/${project.id}/${zoomed}.${project.imageExt}`}
+                  src={`${import.meta.env.BASE_URL}work/${project.id}/${zoomed}.${project.imageExt}`}
                   alt={`${project.name} screenshot ${zoomed}, enlarged`}
                   initial={{ opacity: 0, scale: 0.96 }}
                   animate={{ opacity: 1, scale: 1 }}

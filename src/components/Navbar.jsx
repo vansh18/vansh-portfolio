@@ -84,7 +84,7 @@ export default function Navbar() {
           ))}
           <li className="pt-2">
             <a
-              href={profile.resumeUrl}
+              href={`${import.meta.env.BASE_URL}esume.pdf`}
               onClick={() => setOpen(false)}
               className="block py-3 text-gold"
             >

@@ -29,7 +29,7 @@ export default function FreelanceWork() {
                 <div className="p-4 pb-0">
                   <div className="aspect-[16/10] overflow-hidden rounded-lg border border-ink-line bg-ink">
                     <img
-                      src={`/work/${project.id}/1.${project.imageExt}`}
+                      src={`${import.meta.env.BASE_URL}work/${project.id}/1.${project.imageExt}`}
                       alt={`${project.name} screenshot`}
                       loading="lazy"
                       className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
